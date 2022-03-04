@@ -4,11 +4,26 @@
     font-family: "Roboto";
 }
 
+.eventsContainer {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .eventsTitle {
     color: #1E1E1E;
     margin-left: 10px;
 }
 
-.banner {
-    width: 100%;
+.card {
+    margin: 0 10px 10px 0;
 }
+
+footer {
+    bottom: 0
+}
+
+.btn-primary {
+    margin-top: 20px;
+}
+
