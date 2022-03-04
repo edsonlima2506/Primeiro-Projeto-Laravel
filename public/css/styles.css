@@ -4,8 +4,9 @@
     font-family: "Roboto";
 }
 
-h1 {
-    color: red;
+.eventsTitle {
+    color: #1E1E1E;
+    margin-left: 10px;
 }
 
 .banner {

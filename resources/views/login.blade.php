@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('title', 'Entrar')
-@section('footer')
+@section('main')
 
 <h1>Faça seu login</h1>
 

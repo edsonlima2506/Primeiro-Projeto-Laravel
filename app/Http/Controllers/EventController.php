@@ -4,10 +4,15 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
+// Nessa linha importamos o model
+use App\Models\Event;
+
 class EventController extends Controller
 {
     public function index() {
-        return view('events.events');
+        // Aqui resgatamos todos os dados do DB
+        $events = Event::all();
+        return view('events.events', ['events' => $events]);
     }
 
     public function create() {

@@ -1,6 +1,6 @@
 @extends('layouts.main')
 @section('title', 'Cadastrar')
-@section('footer')
+@section('main')
 
 <h1>Faça seu cadastro</h1>
 

@@ -1,8 +1,7 @@
 @extends('layouts.main')
 @section('title', 'Eventos')
-@section('footer')
+@section('main')
 
-
-<img src="/img/banner.jpg" class="banner" />
+<h1 class="eventsTitle">Eventos</h1>
 
 @endsection
